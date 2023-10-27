@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+
+.menu {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.menub{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 12px 30px;
+    text-decoration: none;
+}
+
+#meals{
+    color: #F58D00;
+}
+
+
+body{
+    
+    background-color: white;
+  
+    font-family: sans-serif;
+}
+
+
+footer{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px 0;
+    font-weight: 500;
+}
+
+footer a{
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #7ED957;
+}

@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+font-family: 'Segoe UI';
+}
+
+.menubar{
+    background-color: #ffffff;
+    display: flex;
+    width: 100%;
+    height: 70px;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 1;
+}
+
+.mealsbutton{
+    font-size:30px; 
+    color:#f58d00;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.mealsbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#7ED957;
+    font-size: 50px;
+    font-weight:bold;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.meals{
+    padding: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 50px;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 35px;
+    width: 360px;
+    height: 500px;
+    background-color: #eeeeee;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+
+.text{
+    display: flex;
+    color: #504f4f;
+    font-size: 28px;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+}
+
+.CAL{
+    display: flex;
+    color: #504f4f;
+    font-size: 23px; 
+    justify-content: center;
+}
+
+.price{
+    font-size: 27px;
+    font-weight: bold;
+    color: #59ac36;
+}
+
+button{
+    background-color: #f17228;
+    color: #ffffff;
+    width: 100px;
+    height: 65;
+    border-radius: 35px;
+    border: none;
+    border-color: transparent;
+}
+
+button:hover{
+    background-color: #59ac36;
+    cursor: pointer;
+}
+
+.quantity{
+    background-color:#eeeeee;
+    color:black;
+    width: 50px;
+    border-radius: 17px;
+    border-color: black;
+}
+
+footer{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px 0;
+    font-weight: 500;
+}
+
+footer a{
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #7ED957;
+}

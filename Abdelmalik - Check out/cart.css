@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.menu {
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    width: 100%;
+    z-index: 1;
+}
+
+
+.menub{
+    color: #ffffff;
+    font-size: 20px;
+    padding: 12px 30px;
+    text-decoration: none;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+
+.cartinput {
+    background-color: transparent;
+    border-radius: 20px;
+    border: 1px solid #707070;
+    font-size: 20px;
+    outline-style: none;
+    padding: 15px 30px;
+    width: 500px;
+}
+
+
+input:focus{
+    border:1px solid #7ed957;
+}
+
+
+.cartbutton{
+    background-color: #7ed957;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid #707070;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color:#282828;
+}
+
+
+.cart{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    padding-top: 60px;
+    gap: 30px;
+}
+
+
+.order{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 15px;
+}
+
+
+
+
+footer{
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px 0;
+    font-weight: 500;
+}
+
+footer a{
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #7ED957;
+}
+
+.palestine{
+    position: absolute;
+    top: 200px;
+    right: 250px;
+}
+
+.text{
+    position: absolute;
+    top: 580px;
+    right: 10px;
+    text-align: center;
+    color: #ffffff;
+}
+span{
+    color: red;
+}

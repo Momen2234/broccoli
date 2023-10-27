@@ -1,0 +1,84 @@
+*,
+*::after,
+*::before{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body {
+
+    font-family: 'Segoe UI', sans-serif ;
+    display: flex ;
+    flex-direction: column ;
+    height: 100% ;
+}                                               /* TODO   add a backgroung to the signin & logo parts  */
+
+.main{
+    position: absolute;
+
+}
+.logo {
+    margin-left : 10px  ;
+}
+
+
+.welcome {
+    font-family: 'Segoe UI', sans-serif ;
+    font-size: 40px  ;
+    color: #FFFFFF ;
+    margin-top :20px ;
+    margin-left : 850px ;
+}
+
+
+h5 {
+    font-family: 'Segoe UI', sans-serif ;
+    font-size: 25px ;
+    font-weight: 120 ;
+    color: #504F4F ;
+    margin-bottom : 20px ;
+    margin-left :270px ;
+}   
+
+.signin{
+    margin-top: 100px;
+} 
+
+input {
+    font-family: 'Segoe UI', sans-serif ;
+    display: block;
+    width: 350px ;
+    height: 35px  ;
+    padding: 5px 20px ;
+    margin : 10px 120px  ;
+    border: 1px solid #707070 ;
+    border-radius: 40px ;
+    font-size: 15px;
+    outline: 0 ;
+}
+
+input:focus{
+    border:1px solid #7ED957;
+}
+
+button {
+    font-family: 'Segoe UI', sans-serif ;
+    display: block ;
+    cursor : pointer ;
+    background-color: rgb(126 217 87) ;
+    font-size: 20px ;
+    color: #FFFFFF ;
+    width: 150px ;
+    height: 50px ;
+    padding: 8px ;
+    margin : 30px 230px ;
+    border : 1px solid #707070 ;
+    font-weight: 3 ;
+    border-radius: 30px ;
+
+}
+
+button:hover {
+    background-color: #282828 ;
+    color : white ;
+}
